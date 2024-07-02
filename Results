@@ -1,0 +1,44 @@
+Results of Each CNN Model
+
+U-Net
+Validation Loss: 0.0803
+Validation Accuracy: 0.9707
+Pixel Accuracy: 0.9715
+F1 Score: 0.9424
+Precision: 0.9497
+Recall: 0.9352
+Jaccard Index (IoU): 0.8910
+Dice Coefficient: 0.9424
+
+ResNet
+Precision: 0.8485
+Recall: 0.8684
+F1 Score: 0.8583
+Loss: 0.1420
+Dice Coefficient: 0.8466
+Accuracy: 0.9256
+Validation Accuracy: 0.9256
+
+
+DenseNet169
+F1 Score: 0.8132
+Accuracy: 0.9012
+Validation F1 Score: 0.8094
+Validation Accuracy: 0.9014
+Precision: 0.5266
+Recall: 0.9548
+F1 Score: 0.6788
+
+
+VGG16
+Validation Loss: 0.3708
+Validation Accuracy: 0.8416
+Accuracy: 0.8416
+Precision: 0.8500
+Recall: 0.8793
+F1 Score: 0.8644
+
+Detailed Metrics:
+Class 0 (normal): Precision: 0.83, Recall: 0.79, F1-Score: 0.81
+Class 1 (TB): Precision: 0.85, Recall: 0.88, F1-Score: 0.86
+Overall Accuracy: 0.84
